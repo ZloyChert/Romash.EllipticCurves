@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{0D7F3073-606B-4FB4-A83D-19CD370D7254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllipticCurves", "EllipticCurves\EllipticCurves.csproj", "{B40945BC-8E00-4531-8E73-3567B0069390}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7F3073-606B-4FB4-A83D-19CD370D7254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7F3073-606B-4FB4-A83D-19CD370D7254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7F3073-606B-4FB4-A83D-19CD370D7254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7F3073-606B-4FB4-A83D-19CD370D7254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40945BC-8E00-4531-8E73-3567B0069390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40945BC-8E00-4531-8E73-3567B0069390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40945BC-8E00-4531-8E73-3567B0069390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40945BC-8E00-4531-8E73-3567B0069390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
